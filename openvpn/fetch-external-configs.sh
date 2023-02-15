@@ -7,7 +7,7 @@ set -o pipefail
 VPN_CONFIG_SOURCE_TYPE="${VPN_CONFIG_SOURCE_TYPE:-github_zip}"
 
 # Set default GitHub config repo
-GITHUB_CONFIG_SOURCE_REPO="${GITHUB_CONFIG_SOURCE_REPO:-haugene/vpn-configs-contrib}"
+GITHUB_CONFIG_SOURCE_REPO="${GITHUB_CONFIG_SOURCE_REPO:-emmorts/vpn-configs-contrib}"
 GITHUB_CONFIG_SOURCE_REVISION="${GITHUB_CONFIG_SOURCE_REVISION:-main}"
 
 if [[ "${VPN_CONFIG_SOURCE_TYPE}" == "github_zip" ]]; then
